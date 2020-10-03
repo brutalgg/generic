@@ -1,8 +1,8 @@
-FROM lancachenet/ubuntu-nginx:latest
-MAINTAINER LanCache.Net Team <team@lancache.net>
+FROM brutalgg/ubuntu-nginx
+LABEL maintainer="LanCache.Net Team <team@lancache.net>"
 
 ENV GENERICCACHE_VERSION=2 \    
-    WEBUSER=www-data \
+    WEBUSER=abc \
 	CACHE_MODE=generic \
     CACHE_MEM_SIZE=500m \
     CACHE_DISK_SIZE=1000000m \

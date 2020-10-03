@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/with-contenv bash
 if [ -d "/data/cache/cache" ]; then
 	echo "Running fast permissions check"
 	ls -l /data/cache/cache | tail --lines=+2 | grep -v ${WEBUSER} > /dev/null

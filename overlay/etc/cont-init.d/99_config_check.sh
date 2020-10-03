@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/with-contenv bash
 set -e
 echo "Currently configured config:"
 /scripts/getconfig.sh /etc/nginx/nginx.conf

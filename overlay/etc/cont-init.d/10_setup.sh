@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/with-contenv sh
 set -e
 
 # Preprocess UPSTREAM_DNS to allow for multiple resolvers using the same syntax as lancache-dns
